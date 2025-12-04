@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <div id="quiz-content"></div>
+    </div>
+
+    <script>
+        function carregarQuiz(nome) {
+
+            // Remove scripts antigos
+            document.querySelectorAll("script[data-quiz]").forEach(script => script.remove());
+
+            // Limpa a área do quiz
+            document.getElementById("quiz-content").innerHTML = "";
+
+            // Cria o novo script
+            const script = document.createElement("script");
+            script.src = nome;
+            script.setAttribute("data-quiz", "true");
+
+            // 🔥 Correção obrigatória
+            script.onload = () => {
+                if (typeof renderQuiz === "function") {
+                    renderQuiz();
+                }
+            };
+
+            // Adiciona ao documento
+            document.body.appendChild(script);
+        }
+
+        function renderMenu() {
+            document.getElementById("quiz-content").innerHTML = `
+                <h1 class='quiz-title'>Escolha a Matéria</h1>
+
+                <div class='options-container'>
+                    <button class='option-btn' onclick="carregarQuiz('codigo.js')">
+                        AUTOMAÇÃO INDUSTRIAL
+                    </button>
+
+                    <button class='option-btn' onclick="carregarQuiz('codigo2.js')">
+                        SISTEMAS EMBARCADOS E MICROCONTROLADORES
+                    </button>
+                </div>
+            `;
+        }
+
+        // Exibe o menu ao abrir
+        window.onload = renderMenu;
+    </script>
+
+</body>
+</html>
