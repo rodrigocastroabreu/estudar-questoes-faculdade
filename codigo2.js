@@ -91,7 +91,7 @@ let quizQuestions = [
     },
     {
         category: "História",
-        image: "https://cdn.tindiemedia.com/images/resize/SJPTltnLAJO2ezuQ6Lf_jiFGrs0=/p/1200x630/smart/i/284494/products/2024-09-28T13%3A28%3A12.197Z-PXL_20240602_134938229.jpg?1727517862",
+        image: "https://victorvision.com.br/blog/o-que-e-arduino/",
         question: "Um dos motivos da popularização do Arduino foi:",
         options: [
             "Baixo custo e facilidade de uso",
@@ -102,58 +102,7 @@ let quizQuestions = [
         correctAnswer: 0,
         explanation: "Seu baixo custo e simplicidade atraíram estudantes e hobistas."
     },
-    {
-        category: "História",
-        image: "https://cdn.tindiemedia.com/images/resize/SJPTltnLAJO2ezuQ6Lf_jiFGrs0=/p/1200x630/smart/i/284494/products/2024-09-28T13%3A28%3A12.197Z-PXL_20240602_134938229.jpg?1727517862",
-        question: "Um dos motivos da popularização do Arduino foi:",
-        options: [
-            "Baixo custo e facilidade de uso",
-            "Alta complexidade",
-            "Dependência de ferramentas caras",
-            "Uso exclusivo em universidades"
-        ],
-        correctAnswer: 0,
-        explanation: "Seu baixo custo e simplicidade atraíram estudantes e hobistas."
-    },
-    {
-        category: "História",
-        image: "https://cdn.tindiemedia.com/images/resize/SJPTltnLAJO2ezuQ6Lf_jiFGrs0=/p/1200x630/smart/i/284494/products/2024-09-28T13%3A28%3A12.197Z-PXL_20240602_134938229.jpg?1727517862",
-        question: "Um dos motivos da popularização do Arduino foi:",
-        options: [
-            "Baixo custo e facilidade de uso",
-            "Alta complexidade",
-            "Dependência de ferramentas caras",
-            "Uso exclusivo em universidades"
-        ],
-        correctAnswer: 0,
-        explanation: "Seu baixo custo e simplicidade atraíram estudantes e hobistas."
-    },
-    {
-        category: "História",
-        image: "https://cdn.tindiemedia.com/images/resize/SJPTltnLAJO2ezuQ6Lf_jiFGrs0=/p/1200x630/smart/i/284494/products/2024-09-28T13%3A28%3A12.197Z-PXL_20240602_134938229.jpg?1727517862",
-        question: "Um dos motivos da popularização do Arduino foi:",
-        options: [
-            "Baixo custo e facilidade de uso",
-            "Alta complexidade",
-            "Dependência de ferramentas caras",
-            "Uso exclusivo em universidades"
-        ],
-        correctAnswer: 0,
-        explanation: "Seu baixo custo e simplicidade atraíram estudantes e hobistas."
-    },
-    {
-        category: "História",
-        image: "https://cdn.tindiemedia.com/images/resize/SJPTltnLAJO2ezuQ6Lf_jiFGrs0=/p/1200x630/smart/i/284494/products/2024-09-28T13%3A28%3A12.197Z-PXL_20240602_134938229.jpg?1727517862",
-        question: "Um dos motivos da popularização do Arduino foi:",
-        options: [
-            "Baixo custo e facilidade de uso",
-            "Alta complexidade",
-            "Dependência de ferramentas caras",
-            "Uso exclusivo em universidades"
-        ],
-        correctAnswer: 0,
-        explanation: "Seu baixo custo e simplicidade atraíram estudantes e hobistas."
-    },
+   
     {
         category: "História",
         image: "https://i.ytimg.com/vi/x0NOS7EFxYA/maxresdefault.jpg",
@@ -1423,3 +1372,4 @@ function showResults() {
 }
 
 renderQuiz();
+
