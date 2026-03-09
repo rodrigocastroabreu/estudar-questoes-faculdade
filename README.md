@@ -66,8 +66,7 @@ estudar-questoes-faculdade
 │   ├── quiz.js
 │   └── perguntas.js
 
-
-Descrição:
+Descrição
 
 index.html → página inicial
 
@@ -80,19 +79,12 @@ quiz.js → lógica do quiz
 perguntas.js → banco de perguntas
 
 ⚙️ Como Executar
-
 1️⃣ Clone o repositório
-
 git clone https://github.com/rodrigocastroabreu/estudar-questoes-faculdade.git
-
 2️⃣ Entre na pasta do projeto
-
 3️⃣ Abra o arquivo
-
 index.html
-
 4️⃣ O projeto abrirá no navegador.
-
 🧠 Exemplo de Pergunta
 
 Pergunta:
