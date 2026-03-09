@@ -1,3 +1,7 @@
+📚 Estudar Questões da Faculdade
+
+Coleção de questões interativas para estudo da faculdade, focadas em Arduino, eletrônica e programação, desenvolvida com HTML, CSS e JavaScript.
+
 👨‍💻 Autor
 
 Rodrigo Abreu
@@ -22,7 +26,7 @@ Os quizzes são desenvolvidos usando HTML, CSS e JavaScript, sem necessidade de 
 
 O projeto consiste em um sistema simples de quiz educativo, onde o usuário responde perguntas de múltipla escolha e testa seus conhecimentos.
 
-Ele pode ser utilizado para estudar conteúdos como:
+Pode ser utilizado para estudar conteúdos como:
 
 Arduino
 
@@ -40,33 +44,41 @@ Algoritmos
 
 🖥️ Preview do Projeto
 
-Exemplo de funcionamento do quiz:
+Exemplo de funcionamento do quiz.
 
 Pergunta:
 O que faz a função setup() no Arduino?
 
 A) Executa continuamente
+
 B) Executa apenas uma vez no início
+
 C) Controla sensores
+
 D) Cria variáveis
 
 Resposta correta:
-
 B) Executa apenas uma vez no início
-📁 Estrutura do Projeto
-estudar-questoes-faculdade
-│
-├── index.html
-├── quiz.html
-│
-├── css
-│   └── style.css
-│
-├── js
-│   ├── quiz.js
-│   └── perguntas.js
 
-Descrição
+📁 Estrutura do Projeto
+
+estudar-questoes-faculdade
+
+index.html
+
+quiz.html
+
+css
+
+style.css
+
+js
+
+quiz.js
+
+perguntas.js
+
+Descrição:
 
 index.html → página inicial
 
@@ -79,41 +91,50 @@ quiz.js → lógica do quiz
 perguntas.js → banco de perguntas
 
 ⚙️ Como Executar
-1️⃣ Clone o repositório
+
+Clone o repositório
+
 git clone https://github.com/rodrigocastroabreu/estudar-questoes-faculdade.git
-2️⃣ Entre na pasta do projeto
-3️⃣ Abra o arquivo
+
+Entre na pasta do projeto
+
+Abra o arquivo
+
 index.html
-4️⃣ O projeto abrirá no navegador.
+
+O projeto abrirá no navegador.
+
 🧠 Exemplo de Pergunta
 
 Pergunta:
-
 Qual é a Lei de Ohm?
 
 A) V = R + I
+
 B) V = R × I
+
 C) I = V + R
+
 D) R = V × I
 
 Resposta correta:
-
 B) V = R × I
-🚀 Roadmap (Futuras Melhorias)
 
- adicionar mais perguntas
+🚀 Futuras Melhorias
 
- separar por matérias
+adicionar mais perguntas
 
- sistema de pontuação
+separar por matérias
 
- cronômetro de prova
+sistema de pontuação
 
- modo simulado de prova
+cronômetro de prova
 
- salvar progresso do usuário
+modo simulado de prova
 
- interface mais avançada
+salvar progresso do usuário
+
+melhorar a interface
 
 📚 Uso Educacional
 
